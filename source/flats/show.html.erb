@@ -2,6 +2,9 @@
 
 <!-- Read from data.flats with owner key -->
 <% flat = data.flats[owner] %>
+<div class="banner" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= flat.picture %>');">
+
+</div>
 
 <!-- Inject flat data in template -->
 <%= image_tag flat.owner_picture, class: "img-circle" %>
