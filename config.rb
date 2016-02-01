@@ -87,6 +87,6 @@ activate :deploy do |deploy|
 end
 
 
-data.flats.each do |owner_attributes|
-  proxy "/flats/#{owner_attributes[0]}.html", "/flats/show.html", :locals => { :owner => name }, :ignore => true
+["anne", "seb", "romain"].each do |name|
+  proxy "/flats/#{name}.html", "/flats/show.html", :locals => { :owner => name }, :ignore => true
 end
