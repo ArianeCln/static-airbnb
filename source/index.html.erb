@@ -33,7 +33,7 @@ title: Le Wagon Middleman boilerplate
 
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="feature">
-            <img src="images/globe.png" alt="">
+            <%= image_tag "globe.png" %>
             <h3>Discover the world</h3>
             <p>The earth is your new home.</p>
           </div>
@@ -41,7 +41,7 @@ title: Le Wagon Middleman boilerplate
 
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="feature">
-            <img src="images/heart.png" alt="">
+            <%= image_tag "heart.png" %>
             <h3>Share and love</h3>
             <p>Join a community you will love.</p>
           </div>
@@ -49,7 +49,7 @@ title: Le Wagon Middleman boilerplate
 
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="feature">
-            <img src="images/beer.png" alt="">
+            <%= image_tag "beer.png" %>
             <h3>Meet people</h3>
             <p>Discover new culture and lifestyle.</p>
           </div>
@@ -57,7 +57,7 @@ title: Le Wagon Middleman boilerplate
 
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="feature">
-            <img src="images/dollar.png" alt="">
+            <%= image_tag "dollar.png" %>
             <h3>Pay online</h3>
             <p>No cash issues anymore.</p>
           </div>
@@ -83,16 +83,19 @@ la boucle avec les différentes keys-->
       <% data.flats.each do |owner, flat| %>
 
         <div class="col-xs-12 col-md-4">
+
           <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%= image_path flat.picture%>');">
+
             <div class="card-category"><%= flat.city %></div>
             <div class="card-description">
               <h2><%= flat.name %></h2>
               <p><%= flat.summary %></p>
             </div>
             <img class="card-user avatar" src="<%= image_path flat.owner_picture%>">
+            <%= link_to "flats/#{owner}.html", "#", class: "card-link" %>
 
           </div>
-           <a class="card-link" href="#" ></a>
+
         </div>
 
       <%end %>
