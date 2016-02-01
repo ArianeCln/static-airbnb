@@ -1,0 +1,14 @@
+seb:
+  name: Seb
+  picture: seb.jpg
+  position: CTO
+
+romain:
+  name: Romain
+  picture: romain.jpeg
+  position: COO
+
+anne:
+  name: Boris
+  picture: anne.jpg
+  position: manager
