@@ -9321,7 +9321,7 @@ button.close {
 
 /* line 5, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/components/_avatar.scss */
 .avatar-large {
-  width: 80px;
+  width: 100px;
   border-radius: 50%; }
 
 /* line 9, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/components/_avatar.scss */
@@ -9407,6 +9407,10 @@ button.close {
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 20px; }
 
+/* line 24, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/components/_banner.scss */
+.banner-thin {
+  height: 50vh; }
+
 /* Card design */
 /* line 3, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/components/_card.scss */
 .card {
@@ -9461,6 +9465,10 @@ button.close {
 /* line 46, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/components/_card.scss */
 .card-link:hover {
   opacity: 0.1; }
+
+/* line 1, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/pages/_show.scss */
+.wrapper-grey {
+  background-color: #CCCCCC; }
 
 /*
 ==============================================

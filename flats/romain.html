@@ -87,15 +87,48 @@
     <!-- source/flats/show.html.erb -->
 
 <!-- Read from data.flats with owner key -->
-<div class="banner" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('card-london.jpeg');">
 
+
+<div class="banner banner-thin" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('../images/card-london.jpeg');">
 </div>
 
 <!-- Inject flat data in template -->
-<img class="img-circle" src="../images/romain.jpeg" />
-<p>romain</p>
-<h1>Charming room in london</h1>
-<p>London</p>
+<div class="container padded">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+      <div class="header-flat-details">
+
+        <div class="header-flat-owner text-center">
+          <img class="avatar-large" src="../images/romain.jpeg" />
+          <p>romain</p>
+        </div>
+
+        <div class="header-flat-name">
+          <h1>Charming room in london</h1>
+          <p>London</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4 ">
+      <form action="#" class="wrapper-grey">
+        <h4>Book this flat</h4>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-xs-6">
+              <input type="text" class="form-control" placeholder="Check-in">
+            </div>
+            <div class="col-xs-6">
+              <input type="text" class="form-control" placeholder="Check-out">
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
 
     <div class="footer-grey">
       <div class="container">
