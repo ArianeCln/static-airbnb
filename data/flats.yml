@@ -5,6 +5,7 @@ seb:
   picture: card-paris.jpg
   owner_picture: seb.jpg
   city: Paris
+  rating: 3
 romain:
   owner_name: romain
   name: Romain's home
@@ -12,6 +13,7 @@ romain:
   picture: card-london.jpeg
   owner_picture: romain.jpeg
   city: London
+  rating: 3
 anne:
   owner_name: anne
   name: Anne's home
@@ -19,3 +21,4 @@ anne:
   picture: card-brussels.jpeg
   owner_picture: anne.jpg
   city: Brussels
+  rating: 3

@@ -1,3 +1,31 @@
-.wrapper-grey {
-  background-color: #CCCCCC;
+.banner-thin {
+  height: 40vh;
+}
+
+.header-flat-details {
+  display: flex;
+  align-items: center;
+}
+.header-flat-details  p {
+  font-size: 15px;
+  color: #6b6b6b;
+}
+
+.header-flat-name {
+  padding-left: 20px;
+}
+.header-flat-name h1 {
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.wrapper {
+  background-color: #e5e5e5;
+  padding: 20px;
+  margin-bottom: 0px;
+  border: #6b6b6b;
+}
+
+.btn {
+  width: 100%;
 }
