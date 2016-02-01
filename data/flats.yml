@@ -7,7 +7,7 @@ seb:
   city: Paris
 
 romain:
-  owner: romain
+  owner_name: romain
   name: Romain's home
   summary: Charming room in london
   picture: card-london.jpeg
@@ -15,7 +15,7 @@ romain:
   city: London
 
 anne:
-  owner: anne
+  owner_name: anne
   name: Anne's home
   summary: Charming room in Brussels
   picture: card-brussels.jpeg
