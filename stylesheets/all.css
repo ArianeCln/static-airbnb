@@ -9128,6 +9128,26 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
+/* Footer design */
+/* line 3, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/layout/_footer.scss */
+.footer-grey {
+  background: #222222;
+  color: #F4F4F4;
+  margin-top: 40px; }
+
+/* line 9, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/layout/_footer.scss */
+.footer-grey i {
+  font-size: 30px; }
+
+/* line 13, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/layout/_footer.scss */
+.social i {
+  padding: 20px;
+  color: #6b6b6b; }
+
+/* line 18, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/layout/_footer.scss */
+.social i:hover {
+  color: white; }
+
 /* Main class */
 /* line 3, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
@@ -9301,7 +9321,7 @@ button.close {
 
 /* line 5, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/components/_avatar.scss */
 .avatar-large {
-  width: 50px;
+  width: 80px;
   border-radius: 50%; }
 
 /* line 9, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/components/_avatar.scss */
@@ -9362,6 +9382,85 @@ button.close {
 .badge-bordered {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   border: white 1px solid; }
+
+/* Banner design */
+/* line 3, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/components/_banner.scss */
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/* line 12, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/components/_banner.scss */
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2); }
+
+/* line 17, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/components/_banner.scss */
+.banner p {
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px; }
+
+/* Card design */
+/* line 3, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/components/_card.scss */
+.card {
+  height: 250px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  background-size: cover !important;
+  color: white;
+  position: relative;
+  border-radius: 4px;
+  margin: 10px; }
+
+/* line 12, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/components/_card.scss */
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px; }
+
+/* line 17, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/components/_card.scss */
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 10px;
+  text-transform: uppercase; }
+
+/* line 24, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/components/_card.scss */
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px; }
+
+/* line 29, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/components/_card.scss */
+.card-description h2 {
+  font-size: 22px;
+  text-align: left; }
+
+/* line 33, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/components/_card.scss */
+.card-description p {
+  font-size: 13px; }
+
+/* line 36, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/components/_card.scss */
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  left: 0px;
+  z-index: 2;
+  background: black;
+  opacity: 0; }
+
+/* line 46, /Users/admin/code/ArianeCln/static-airbnb/source/stylesheets/components/_card.scss */
+.card-link:hover {
+  opacity: 0.1; }
 
 /*
 ==============================================
